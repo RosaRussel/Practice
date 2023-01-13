@@ -1,0 +1,44 @@
+
+@media (max-width: 1400px) {
+    .mint_right_menu_list ul li a {
+        line-height: 35px;
+    }
+
+    .mint_home_menu {
+        margin-top: 40px;
+    }
+
+    .mint_menu_right {
+        padding-top: 123px;
+    }
+
+    .mint_right_menu_list1 {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+        padding: 0px 20px;
+    }
+}
+
+@media (min-width: 991px) {
+    .home_tab_content {
+        animation: v5-slider 0.5s;
+        position: absolute;
+        width: 100%;
+
+    }
+
+    @keyframes v5-slider {
+        from {
+            right: -100%;
+        }
+
+        to {
+            right: 0%;
+        }
+    }
+}
